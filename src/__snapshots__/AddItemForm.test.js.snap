@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for AddItemForm Component renders UI as expected 1`] = `
+<form
+  className="add-item-form"
+>
+  <section
+    className="input-section"
+  >
+    <input
+      id="add-item-input"
+      placeholder="Add Item"
+      type="text"
+    />
+    <input
+      id="add-item-submit"
+      type="submit"
+      value="Add Item"
+    />
+  </section>
+</form>
+`;

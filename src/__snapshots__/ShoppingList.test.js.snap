@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingList component tests renders UI as expected with multiple props 1`] = `
+<ul
+  className="shopping-list"
+>
+  <ShoppingListItem
+    checked={false}
+    key="0"
+    name="apples"
+  />
+  <ShoppingListItem
+    checked={true}
+    key="1"
+    name="apples"
+  />
+  <ShoppingListItem
+    checked={false}
+    key="2"
+    name="apples"
+  />
+</ul>
+`;
+
+exports[`ShoppingList component tests renders UI as expected with no props 1`] = `
+<ul
+  className="shopping-list"
+/>
+`;
+
+exports[`ShoppingList component tests renders UI as expected with props 1`] = `
+<ul
+  className="shopping-list"
+>
+  <ShoppingListItem
+    checked={false}
+    key="0"
+    name="apples"
+  />
+</ul>
+`;
